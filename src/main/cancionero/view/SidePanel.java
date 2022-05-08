@@ -51,7 +51,7 @@ public class SidePanel extends JPanel {
 		libraryButton.setToolTipText(StringValue.SIDEBAR_BTNLIBRARY_TIP);
 		libraryButton.addActionListener(mainFrame);
 		
-		editorButton = new JButton(StringValue.EMOJI_MEMO);
+		editorButton = new JButton(StringValue.EMOJI_HANDWRITE);
 		editorButton.setSize(100, 100);
 		editorButton.setForeground(ColorPalette.HEAVY);
 		editorButton.setLocation(0, 100);
@@ -61,7 +61,7 @@ public class SidePanel extends JPanel {
 		editorButton.setToolTipText(StringValue.SIDEBAR_BTNEDITOR_TIP);
 		editorButton.addActionListener(mainFrame);
 		
-		viewerButton = new JButton(StringValue.EMOJI_GUITAR);
+		viewerButton = new JButton(StringValue.EMOJI_RARECIRCLE);
 		viewerButton.setSize(100, 100);
 		viewerButton.setForeground(ColorPalette.HEAVY);
 		viewerButton.setLocation(0, 200);

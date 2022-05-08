@@ -9,126 +9,36 @@ package cancionero.control;
  */
 public class StringValue {
 
-	/**
-	 * Contiene la cadena que indica su nombre.
-	 * */
 	public final static String EMPTY_STRING = "";
-	/**
-	 * Contiene la cadena que indica su nombre.
-	 * */
 	public final static String DATE_FORMAT = "YYYY:MM:DD";
-	/**
-	 * Contiene la cadena que indica su nombre.
-	 * */
 	public final static String PROYECT_TITLE = "Cancionero";
-	/**
-	 * Contiene la cadena que indica su nombre.
-	 * */
 	public final static String DATABASE_FILE_NAME_LEGACY = "cancionero_database";
-	/**
-	 * Contiene la cadena que indica su nombre.
-	 * */
 	public final static String DATABASE_FILE_NAME_DEVELOP = "develop_database";
-	/**
-	 * Contiene la cadena que indica su nombre.
-	 * */
 	public final static String DATABASE_REPORT_TEMPLATE_PATH = ".\\CancioneroReport.jrxml";
 	
-	/**
-	 * Contiene la cadena que indica su nombre.
-	 * */
 	public final static String ADD_SONG_TEXT = "Agregar";
-	/**
-	 * Contiene la cadena que indica su nombre.
-	 * */
 	public final static String SRCH_SONG_TEXT = "Buscar";
-	/**
-	 * Contiene la cadena que indica su nombre.
-	 * */
 	public final static String SAVE_SONG_TEXT = "Guardar";
-	/**
-	 * Contiene la cadena que indica su nombre.
-	 * */
 	public final static String EMPTY_FIELDS_ERROR_MESSAGE = "Solo puedes dejar vacio el Album y el Artista!.";
-	/**
-	 * Contiene la cadena que indica su nombre.
-	 * */
 	public final static String SAVE_SONG_ERROR_MESSAGE = "Error a la hora de guardar los datos!.";
-	/**
-	 * Contiene la cadena que indica su nombre.
-	 * */
 	public final static String SAVE_SONG_SUCCESS_MESSAGE = "Datos guardados exitosamente!.";
-	/**
-	 * Contiene la cadena que indica su nombre.
-	 * */
 	public final static String NO_SELECTED_SONG_MESSAGE = "No has cargado una cancion en el Visor.";
-	/**
-	 * Contiene la cadena que indica su nombre.
-	 * */
 	public final static String TABLE_TITLE_BORDER = "Mis Canciones";
-	/**
-	 * Contiene la cadena que indica su nombre.
-	 * */
 	public final static String TABLE_DELETEMODE_BORDER = "Modo Eliminar";
-	/**
-	 * Contiene la cadena que indica su nombre.
-	 * */
 	public final static String TABLE_UPDATE_TEXT= "Actualizar";
-	/**
-	 * Contiene la cadena que indica su nombre.
-	 * */
 	public final static String TABLE_SEARCH_TEXTFIELD_TEXT= "Busca canciones, albumes o artistas";
-	/**
-	 * Contiene la cadena que indica su nombre.
-	 * */
 	public static final String TABLE_DELETE_TEXT = "Activa el Modo Eliminar.";
-	/**
-	 * Contiene la cadena que indica su nombre.
-	 * */
 	public final static String TITLE_LIBRARY_TEXT = "Biblioteca de Canciones";
-	/**
-	 * Contiene la cadena que indica su nombre.
-	 * */
 	public final static String TITLE_EDITOR_TEXT = "Editor de Canciones";
-	/**
-	 * Contiene la cadena que indica su nombre.
-	 * */
 	public final static String TITLE_VIEWER_TEXT = "Visualizador de Canciones";
-	/**
-	 * Contiene la cadena que indica su nombre.
-	 * */
 	public final static String FRAME_INTRO_TEXT = "Escuela de Canto y Musica Llanera Cimarron.";
-	/**
-	 * Contiene la cadena que indica su nombre.
-	 * */
 	public final static String LIBRARY_PANEL_TIP = "Visualiza la lista de canciones o busca una cancion.";
-	/**
-	 * Contiene la cadena que indica su nombre.
-	 * */
 	public final static String EDITOR_SONGNAME_TEXT= "Cancion";
-	/**
-	 * Contiene la cadena que indica su nombre.
-	 * */
 	public final static String EDITOR_ARTISTNAME_TEXT= "Artista";
-	/**
-	 * Contiene la cadena que indica su nombre.
-	 * */
 	public final static String EDITOR_ALBUMNAME_TEXT= "Album";
-	/**
-	 * Contiene la cadena que indica su nombre.
-	 * */
 	public final static String EDITOR_ALBUMDATE_TEXT= "Lanzamiento";
-	/**
-	 * Contiene la cadena que indica su nombre.
-	 * */
 	public final static String EDITOR_ALBUMTRACK_TEXT= "Tracks";
-	/**
-	 * Contiene la cadena que indica su nombre.
-	 * */
 	public final static String EDITOR_SONGRHYTHM_TEXT= "Ritmo";
-	/**
-	 * Contiene la cadena que indica su nombre.
-	 * */
 	public final static String EDITOR_SONGBASEC_TEXT= "Tonalidad Base";
 	public final static String EDITOR_SONGFAVC_TEXT= "Tonalidad Favorita";
 	public final static String EDITOR_SONGCHORD_TEXT= "Acordes y Letra";
@@ -154,9 +64,11 @@ public class StringValue {
 	public final static String EMOJI_BOOKS = new String(Character.toChars(128218), 0, 2);
 	public final static String EMOJI_MEMO = new String(Character.toChars(128221), 0, 2);
 	public final static String EMOJI_GUITAR = new String(Character.toChars(127928), 0, 2);
+	public final static String EMOJI_HANDWRITE = new String(Character.toChars(128398), 0, 2);
+	public final static String EMOJI_RARECIRCLE = new String(Character.toChars(128795),0, 2);
 			
 	private StringValue() {
-		// TODO Auto-generated constructor stub
+		
 	}
 
 }

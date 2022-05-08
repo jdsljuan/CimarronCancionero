@@ -1,6 +1,6 @@
 package cancionero.control;
 
-import static org.junit.Assume.assumeFalse;
+//import static org.junit.Assume.assumeFalse;
 import static org.junit.Assume.assumeTrue;
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -10,7 +10,7 @@ import org.junit.jupiter.api.Test;
 
 class EngineTest extends Engine {
 
-	private static Engine engine;
+	//private static Engine engine;
 	@BeforeAll
 	static void setUpBeforeClass() throws Exception {
 		//engine = new Engine();

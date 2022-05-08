@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Created with Jaspersoft Studio version 6.17.0.final using JasperReports Library version 6.17.0-6d93193241dd8cc42629e188b94f9e0bc5722efd  -->
+<!-- Created with Jaspersoft Studio version 6.19.1.final using JasperReports Library version 6.19.1-867c00bf88cd4d784d404379d6c05e1b419e8a4c  -->
 <jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="CancioneroReport" pageWidth="612" pageHeight="792" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="2067ffbe-ece2-4eb6-bf76-34edf0777385">
 	<property name="com.jaspersoft.studio.data.sql.tables">
 		<![CDATA[dHNvbmcgQVMgLDEwNiwxNzksYmFlODIzNDctOWM1Ny00N2JlLTg4OWEtMjFhNzU5YmQ1NTVkO3Rh
@@ -63,16 +63,16 @@ FROM tsong
 	<title>
 		<band height="109" splitType="Stretch">
 			<staticText>
-				<reportElement x="130" y="66" width="300" height="30" uuid="6f431013-162a-446c-a648-c3beca6e68fc"/>
+				<reportElement x="117" y="59" width="330" height="30" uuid="6f431013-162a-446c-a648-c3beca6e68fc"/>
 				<textElement textAlignment="Center" verticalAlignment="Middle">
-					<font fontName="Cantarell Extra Bold" size="12"/>
+					<font fontName="Monospaced" size="12" isItalic="false"/>
 				</textElement>
-				<text><![CDATA[Escuela de Canto y Musica Llanera]]></text>
+				<text><![CDATA[Cancionero Digital By Juan David Sanchez Leal]]></text>
 			</staticText>
 			<staticText>
 				<reportElement x="80" y="0" width="400" height="90" uuid="b735614a-94c7-4c64-ac50-a3a7c01dcde5"/>
 				<textElement textAlignment="Center" verticalAlignment="Middle">
-					<font fontName="Cantarell Extra Bold" size="60"/>
+					<font fontName="Monospaced" size="60"/>
 				</textElement>
 				<text><![CDATA[Cimarron]]></text>
 			</staticText>
