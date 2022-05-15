@@ -186,8 +186,6 @@ public class LibraryPanel extends JPanel {
 		dataInstance = data;
 	}
 
-	
-	
 	/**
 	 * @return the dataInstance
 	 */

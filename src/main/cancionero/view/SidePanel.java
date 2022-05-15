@@ -129,5 +129,13 @@ public class SidePanel extends JPanel {
 	public JButton getViewerButton() {
 		return viewerButton;
 	}
-	
+
+	/**
+	 * Coloca los nuevos valores de las dimensiones del Objecto
+	 * pero no lo redibuja.
+	 */
+	public void setPanelDimension(double height){
+		minSize.setSize(FINAL_W, height);
+		this.setSize(minSize);
+	}
 }

@@ -9,6 +9,11 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
+import java.awt.event.ComponentListener;
+import java.awt.event.ComponentEvent;
+import java.awt.event.WindowEvent;
+import java.awt.event.WindowListener;
+import java.awt.event.WindowStateListener;
 
 import javax.swing.JFrame;
 import javax.swing.JLabel;
@@ -33,7 +38,7 @@ import net.sf.jasperreports.view.JasperViewer;
  * 
  */
 @SuppressWarnings("serial")
-public class FrameWindow extends JFrame implements ActionListener, MouseListener{
+public class FrameWindow extends JFrame implements ActionListener, MouseListener, ComponentListener, WindowListener, WindowStateListener{
 	
 	/**
 	 * Ancho del Panel
@@ -119,10 +124,14 @@ public class FrameWindow extends JFrame implements ActionListener, MouseListener
 		
 		this.add(label);
 		this.add(label2);
+
+		addComponentListener(this);
+		addWindowListener(this);
+		addWindowStateListener(this);
 		
 		this.setTitle(StringValue.PROYECT_TITLE);
 		this.setLayout(null);
-		this.setResizable(false);
+		this.setResizable(true);
 		this.getContentPane().setBackground(ColorPalette.BASE);
 		this.setDefaultCloseOperation(EXIT_ON_CLOSE);
 		this.getContentPane().setPreferredSize(minSize);
@@ -384,5 +393,68 @@ public class FrameWindow extends JFrame implements ActionListener, MouseListener
 		// TODO Auto-generated method stub
 		
 	}
+
+	@Override
+	public void componentHidden(ComponentEvent e) {
+				
+	}
+
+	@Override
+	public void componentMoved(ComponentEvent e) {
+				
+	}
+
+	@Override
+	public void componentResized(ComponentEvent e) {
+		this.sidePane.setPanelDimension(e.getComponent().getSize().getHeight());
+		//this.setVisible(false);
+		//this.pack();
+		//this.sidePane.repaint();	
+		this.repaint();
+	}
 	
+	@Override
+	public void componentShown(ComponentEvent e) {
+		
+	}
+
+	@Override
+	public void windowDeactivated(WindowEvent e) {
+		
+	}
+
+	@Override
+	public void windowActivated(WindowEvent e) {
+		
+	}
+
+	@Override
+	public void windowClosed(WindowEvent e) {
+		
+	}
+
+	@Override
+	public void windowClosing(WindowEvent e) {
+		
+	}
+
+	@Override
+	public void windowDeiconified(WindowEvent e) {
+		
+	}
+
+	@Override
+	public void windowIconified(WindowEvent e) {
+		
+	}
+	
+	@Override
+	public void windowOpened(WindowEvent e) {
+		
+	}
+
+	@Override
+	public void windowStateChanged(WindowEvent e) {
+		
+	}
 }
